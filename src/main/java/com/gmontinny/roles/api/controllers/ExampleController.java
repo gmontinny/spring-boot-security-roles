@@ -16,13 +16,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class ExampleController {
 
     @GetMapping
-    @Operation(summary = "Example GET endpoint")
+    @Operation(summary = "Exemplo GET endpoint")
     public ResponseEntity<Void> get() {
         return ResponseEntity.ok().build();
     }
 
     @PostMapping
-    @Operation(summary = "Example POST endpoint available only for ROLE_CHIEF_OPERATING_OFFICER")
+    @Operation(summary = "Exemplo POST endpoint avaliado apenas para ROLE_CHIEF_OPERATING_OFFICER")
     @MustBeChiefOperatingOfficer
     public ResponseEntity<Void> post() {
         return ResponseEntity.ok().build();
