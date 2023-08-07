@@ -1,46 +1,44 @@
-# spring-boot-user-roles-management
+# spring boot security roles
 
-[![keep_growing logo](readme-images/logo_250x60.png)](https://keepgrowing.in/)
 
-## About this project
+## Sobre este projeto
 
-A demo Spring Boot application showing useful tips for managing user roles.
+Um aplicativo Spring Boot de demonstração mostrando dicas úteis para gerenciar funções de usuário.
 
-## Prerequisites
+## Pré-requisitos
 
-* JDK 17+ ([How to install OpenJDK 17 on Ubuntu](https://keepgrowing.in/java/how-to-install-openjdk-17-on-ubuntu/))
-* [Maven](https://maven.apache.org/) (or you can use `mvnw` provided in the project)
+* JDK 17+ 
 
 ## Getting started
 
-First, [clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository)
+Primeiramente, [clone](https://github.com/gmontinny/spring-boot-security-roles.git)
 this repository.
 
-Then, build it locally with:
+Em seguida, crie-o localmente com:
 
 ```shell
 mvn clean install
 ```
 
-You can run the app in a command line with the following command:
+Você pode executar o aplicativo em uma linha de comando com o seguinte comando:
 
 ```shell
 mvn spring-boot:run
 ```
 
-### Running tests
+### Rodando testes
 
-You can run tests with:
+Você pode rodar com:
 
 ```shell
 mvn test
 ```
 
-### API documentation
+### Documentação da API
 
 #### Swagger UI
 
-Swagger UI is available at [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+Swagger UI  [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
 #### OpenAPI
 

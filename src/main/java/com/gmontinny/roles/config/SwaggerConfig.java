@@ -32,8 +32,8 @@ public class SwaggerConfig {
                 .description(properties.projectDescription())
                 .version(properties.projectVersion())
                 .license(new License()
-                        .name("Unlicese")
-                        .url("https://unlicense.org/"));
+                        .name("Giovanny")
+                        .url("https://gmontinny.org/"));
     }
 
     private SecurityScheme createSecurityScheme() {
