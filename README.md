@@ -20,7 +20,7 @@ Em seguida, crie-o localmente com:
 mvn clean install
 ```
 
-Você pode executar o aplicativo em uma linha de comando com o seguinte comando:
+Você pode executar o aplicativo em uma linha de comando:
 
 ```shell
 mvn spring-boot:run
